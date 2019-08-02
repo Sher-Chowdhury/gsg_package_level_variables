@@ -16,12 +16,16 @@ func main() {
 	fmt.Println("EG4 - Declared Variables")
 	declaredVariables()
 
-	fmt.Println("EG5 - Declared Variables using type inference")
+	fmt.Println("EG5 - Initialise then declare")
+	initialiseThenDeclareVariable()
+
+	fmt.Println("EG6 - Declared Variables using type inference")
+
 	declaredVariablesUsingTypeInference()
 
-	fmt.Println("EG6 - Declared Variables - Alternate syntax")
+	fmt.Println("EG7 - Declared Variables - Alternate syntax")
 	declaredVariablesAlt1()
 
-	fmt.Println("EG7 - Check data type")
+	fmt.Println("EG8 - Check data type")
 	checkDataType()
 }
