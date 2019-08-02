@@ -6,8 +6,8 @@ import (
 
 func initialiseThenDeclareVariable() {
 
-	fullname string              // initialised here
-	fullname = "Peter Parker"    // then declared here
+	var fullname string       // initialised here
+	fullname = "Peter Parker" // then declared here
 
 	fmt.Println("'fullname' is set to:", fullname)
 }
