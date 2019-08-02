@@ -21,4 +21,7 @@ func main() {
 
 	fmt.Println("EG6 - Declared Variables - Alternate syntax")
 	declaredVariablesAlt1()
+
+	fmt.Println("EG7 - Check data type")
+	checkDataType()
 }
