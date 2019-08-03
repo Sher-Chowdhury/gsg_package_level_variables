@@ -6,8 +6,9 @@ import (
 
 func declaredVariables() {
 
+	var name string = "Peter Parker"
+
 	var (
-		name string = "Peter Parker"
 		city string = "New York"
 		age  int    = 18
 	)
