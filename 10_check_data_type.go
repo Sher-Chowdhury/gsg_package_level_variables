@@ -7,15 +7,17 @@ import (
 )
 
 func checkDataType() {
-	// Golang can work out data type for you, so you don't need to explicitly specify the datatype
-	var (
-		name = "Peter Parker"
-		city = "New York"
-		age  = 18
-	)
+
+	name := "Peter Parker"
+	city := "New York"
+	age := 18
+	weight := 65.23
+	single := true
 
 	// here we find out what data type golang has determined for each variable
 	fmt.Println("Golang has decided to set the datatype for 'name' to:", reflect.TypeOf(name))
 	fmt.Println("Golang has decided to set the datatype for 'city' to:", reflect.TypeOf(city))
 	fmt.Println("Golang has decided to set the datatype for 'age' to:", reflect.TypeOf(age))
+	fmt.Println("Golang has decided to set the datatype for 'weight' to:", reflect.TypeOf(weight))
+	fmt.Println("Golang has decided to set the datatype for 'single' to:", reflect.TypeOf(single))
 }
