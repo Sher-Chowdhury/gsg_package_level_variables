@@ -12,7 +12,7 @@ func declaredVariables() {
 		city string = "New York"
 	)
 
-	// if you are Initialising + Declaring variables, like above,  then you do this using colon-equal syntax, ":="
+	// if you are Initialising + Declaring variables, like above, then you do this using colon-equal syntax, ":="
 	// instead, it is more short-hand and more common:
 
 	age := 17
