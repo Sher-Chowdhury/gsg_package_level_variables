@@ -5,10 +5,11 @@ import (
 )
 
 func initialisedonly() {
-	// here we declared to variables but we haven't assigned a value to them.
-	// i.e. declared but not yet initialized
+	// here we DECLARE to variables but we haven't assigned a value to them.
+	// i.e. DECLARED but not yet INITIALISED
 	// by default unitialized int-variables takes the value '0' and
-	// unitialized string-variables takes the value ''.
+	// uninitialized string-variables takes the value ''.
+	// i.e. they are initialised behind the scenes be giving them default values.
 	var (
 		name string
 		city string

@@ -8,7 +8,7 @@ import (
 
 func checkDataType() {
 
-	// the colon-equal syntax, ':=' is the shorthand alternattive to using the 'var' key word.
+	// the colon-equal syntax, ':=' is the shorthand alternattive to using the 'var' key word to Initialise a variable.
 	// this syntax is more common than using the var keyword.
 	name := "Peter Parker"
 	city := "New York"
