@@ -13,4 +13,15 @@ func declaredImpliedVariables() {
 	fmt.Println("'name' is set to:", name)
 	fmt.Println("'city' is set to:", city)
 	fmt.Println("'age' is set to:", age)
+
+	fmt.Println(catchphrase)
 }
+
+// You can only use ':=' inside functions so the following
+// will give an error:
+
+// catchphrase := "with great power comes great responsibilities"
+
+// so outside functions you can instead do
+
+var catchphrase = "with great power comes great responsibilities"
