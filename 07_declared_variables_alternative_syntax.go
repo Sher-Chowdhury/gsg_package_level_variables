@@ -5,6 +5,7 @@ import (
 )
 
 func declaredVariablesAlt1() {
+	fmt.Println("##### EG7 output #####")
 	// here multiple variables of the same data type can be declared on the same line
 	// although it makes it a little harder to read
 	var (

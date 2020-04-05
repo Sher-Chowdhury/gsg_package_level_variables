@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func declaredVariablesUsingTypeInference() {
-
+    fmt.Println("##### EG6 output #####")
 	var (
 		name = "Peter Parker"
 		city = "New York"

@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func declaredImpliedVariablesAlt1() {
-
+	fmt.Println("##### EG9 output #####")
+	
 	// This is even more short-hand
 	name, city, age := "Peter Parker", "New York", 18
 

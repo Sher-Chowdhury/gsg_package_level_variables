@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func declaredImpliedVariables() {
-
+	fmt.Println("##### EG8 output #####")
+	
 	// This is more shorthand, instead of the using the 'var' word to defined
 	// these as variables we have used ':=' to get golang to work that out for us.
 	name := "Peter Parker"

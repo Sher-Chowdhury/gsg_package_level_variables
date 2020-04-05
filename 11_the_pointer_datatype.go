@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func thePointerDatatype() {
+	fmt.Println("##### EG11 output #####")
+	
 	// A pointer is a variable which points to the memory location of another variable.
 	// you can view memory location using '&'
 	fullname := "Peter Parker"

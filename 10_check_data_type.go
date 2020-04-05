@@ -7,6 +7,7 @@ import (
 )
 
 func checkDataType() {
+    fmt.Println("##### EG10 output #####")
 
 	/* 
 	    the colon-equal syntax, ':=' is the shorthand alternattive to using the 'var' key word to Initialise a variable.
