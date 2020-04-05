@@ -5,6 +5,7 @@ import (
 )
 
 func declaredVariables() {
+    fmt.Println("##### EG4 output #####")
 
 	var name string = "Peter Parker"
 
@@ -16,7 +17,6 @@ func declaredVariables() {
 	// instead, it is more short-hand and more common:
 
 	age := 17
-    fmt.Println("##### EG4 output #####")
 	fmt.Println("'name' is set to:", name)
 	fmt.Println("'city' is set to:", city)
 	fmt.Println("'age' is set to:", age)
