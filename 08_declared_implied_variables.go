@@ -7,6 +7,7 @@ func declaredImpliedVariables() {
 	
 	// This is more shorthand, instead of the using the 'var' word to defined
 	// these as variables we have used ':=' to get golang to work that out for us.
+	// This syntax only works inside a function. 
 	name := "Peter Parker"
 	city := "New York"
 	age := 18

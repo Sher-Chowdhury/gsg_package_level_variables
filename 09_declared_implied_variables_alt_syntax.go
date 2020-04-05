@@ -12,6 +12,6 @@ func declaredImpliedVariablesAlt1() {
 	fmt.Println("'city' is set to:", city)
 	fmt.Println("'age' is set to:", age)
 	// here's another way of using this
-	fmt.Println(name, city, age)
+	fmt.Println(name, city, age)  // Peter Parker New York 18
 
 }

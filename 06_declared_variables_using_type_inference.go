@@ -1,11 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 // Here we haven't specified datatype, so golang works it out for you, aka type inference. 
 var (
-	city = "New York"
-	country = "America"
+	city = "New York"   // These are outside a function
+	country = "America" // so can be used anywhere in the main appliction, e.g. in EG7.
 )
 
 func declaredVariablesUsingTypeInference() {
@@ -26,6 +29,11 @@ func declaredVariablesUsingTypeInference() {
 	fmt.Println("'name' is set to:", name)  // 'name' is set to: Peter Parker
 	fmt.Println("'city' is set to:", city)  // 'city' is set to: New York
 	fmt.Println("'age' is set to:", age)    // 'age' is set to: 18
+
+    // Here we use the reflect standard library package to get the datatype of an object. 
+    fmt.Println(reflect.TypeOf(name))  // string
+    fmt.Println(reflect.TypeOf(city))  // string
+    fmt.Println(reflect.TypeOf(age))   // int
 }
 
 
