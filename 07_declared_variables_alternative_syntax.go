@@ -16,4 +16,5 @@ func declaredVariablesAlt1() {
 	fmt.Println("'name' is set to:", name)
 	fmt.Println("'city' is set to:", city)
 	fmt.Println("'age' is set to:", age)
+	fmt.Println("'age' is set to:", country)
 }

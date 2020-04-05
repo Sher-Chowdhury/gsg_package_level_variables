@@ -4,20 +4,20 @@ import (
 	"fmt"
 )
 
+
+var name string = "Peter Parker"
+
+
+
 func declaredVariables() {
     fmt.Println("##### EG4 output #####")
-
-	var name string = "Peter Parker"
 
 	var (
 		city string = "New York"
 	)
 
-	// if you are Initialising + Declaring variables, like above, then you do this using colon-equal syntax, ":="
-	// instead, it is more short-hand and more common:
-
-	age := 17
+	// if you are Initialising + Declaring variables, like above, then notice you can do this 
+	// either inside or outside of the function.
 	fmt.Println("'name' is set to:", name)
 	fmt.Println("'city' is set to:", city)
-	fmt.Println("'age' is set to:", age)
 }
