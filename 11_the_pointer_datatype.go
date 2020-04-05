@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
+
 
 func thePointerDatatype() {
 	fmt.Println("##### EG11 output #####")
@@ -14,12 +18,22 @@ func thePointerDatatype() {
 	// &fullname - is the label attached to the box's lid
 	// 'fullname' - is a human-friendly name we use to tell golang which box we're talking about. 
 
+	// new is a golang builtin funciton - https://golang.org/pkg/builtin/#new
+	// It just returns a string-pointer-datatype
+
+    fmt.Println(new(string))  // 0xc000010200
+    fmt.Println(new(string))  // 0xc000010210
+    fmt.Println(new(string))  // 0xc000010220
+    fmt.Println(new(string))  // 0xc000010230
+    fmt.Println(new(string))  // 0xc000010240
+	// This just outputs
+	fmt.Println(reflect.TypeOf(new(string))) // *string .  - i.e. a string-pointer-datatype
+
 
 	// This initialises a pointer, which just points to memory location.
 	// the rhs also ends up declaring this and allocates the memory needed to store a string object.
 	var firstname *string = new(string)
-	// new is a golang builtin funciton - https://golang.org/pkg/builtin/#new
-
+	
 	// To store anything inside the memory, you use asterisk
 	*firstname = "peter"
 
