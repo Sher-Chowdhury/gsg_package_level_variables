@@ -11,6 +11,7 @@ func initialisedonlyAlt2() {
 		age        int
 	)
 
+    fmt.Println("##### EG3 output #####")
 	fmt.Println("'name' is set to:", name)
 	fmt.Println("'city' is set to:", city)
 	fmt.Println("'age' is set to:", age)

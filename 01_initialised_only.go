@@ -15,8 +15,8 @@ func initialisedonly() {
 		city string
 		age  int
 	)
-
-	fmt.Println("'name' is set to:", name)
-	fmt.Println("'city' is set to:", city)
-	fmt.Println("'age' is set to:", age)
+    fmt.Println("##### EG1 output #####")
+	fmt.Println("'name' is set to:", name)    // 'name' is set to:
+	fmt.Println("'city' is set to:", city)    // 'city' is set to:
+	fmt.Println("'age' is set to:", age)      // 'age' is set to: 0
 }

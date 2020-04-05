@@ -5,7 +5,8 @@ import (
 )
 
 func initialiseThenDeclareVariable() {
-
+	fmt.Println("##### EG5 output #####")
+	
 	var fullname string       // initialised here
 	fullname = "Peter Parker" // then declared here
 
