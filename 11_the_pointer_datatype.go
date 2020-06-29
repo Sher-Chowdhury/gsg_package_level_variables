@@ -21,13 +21,13 @@ func thePointerDatatype() {
 	// new is a golang builtin funciton - https://golang.org/pkg/builtin/#new
 	// It just returns a string-pointer-datatype
 
-    fmt.Println(new(string))  // 0xc000010200
-    fmt.Println(new(string))  // 0xc000010210
-    fmt.Println(new(string))  // 0xc000010220
-    fmt.Println(new(string))  // 0xc000010230
-    fmt.Println(new(string))  // 0xc000010240
+        fmt.Println(new(string))  // 0xc000010200
+        fmt.Println(new(string))  // 0xc000010210
+        fmt.Println(new(string))  // 0xc000010220
+        fmt.Println(new(string))  // 0xc000010230
+        fmt.Println(new(string))  // 0xc000010240
 	// This just outputs
-	fmt.Println(reflect.TypeOf(new(string))) // *string .  - i.e. a string-pointer-datatype
+	fmt.Println(reflect.TypeOf(new(string))) // *string      //  - i.e. a string-pointer-datatype
 
 
 	// This initialises a pointer, which just points to memory location.
